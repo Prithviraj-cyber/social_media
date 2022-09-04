@@ -122,11 +122,16 @@
     font-size: 14px;
     font-weight: 700;
     color: #000;
+    margin-bottom: 15px;
 }
 
 .add_ans h3 img{
     width: 25px;
     margin-right: 5px;
+}
+
+.add_ans h3 span{
+   transform: translateY(10px);
 }
 
 .add_ans_form{

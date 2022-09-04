@@ -40,14 +40,14 @@ export default function Chat() {
                                 <Row>
                                     <Col md={4} sm={4} xs={4}>
                                         <div className={styles.chat_img}>
-                                            <img src="/aa.png" />
+                                            <Image src="/aa.png" width={100} height={100} alt='img2'/>
                                         </div>
                                     </Col>
                                     <Col md={8} sm={8} xs={8}>
                                         <div className={styles.chat_name}>
                                             <h3>Anand 2308</h3>
                                             <p>Get access to exclusive information and interect with fellow auto lovers.</p>
-                                            <h4><img src="/medal.png" /> <span> Newbie</span></h4>
+                                            <h4><Image src="/medal.png" width={12} height={12} alt='img3'/> <span> Newbie</span></h4>
                                             <div className={styles.edit}>
                                                 <p>Joined in Jul 2022</p>
                                                 <p><a href="#">Edit</a></p>
@@ -65,7 +65,7 @@ export default function Chat() {
                                 <Row>
                                     <Col md={4} sm={4} xs={4}>
                                         <div className={styles.chat_img2}>
-                                            <img src="/chat.png" />
+                                            <Image src="/chat.png" width={100} height={100} alt='img1'/>
                                         </div>
                                     </Col>
                                     <Col md={8} sm={8} xs={8}>
@@ -168,7 +168,7 @@ export default function Chat() {
                                             <div className={styles.cancle}>
                                                 <p><span>Prabhat </span> asked about  Royal Enfield Classic 350 (2012-2021)</p>
                                             </div>
-                                            <h3>Q. What's the Minimum height of a person required to drive a classic 350 ?</h3>
+                                            <h3>Q. Whats the Minimum height of a person required to drive a classic 350 ?</h3>
                                             <p className={styles.follow}>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" className="bi bi-bell-fill" viewBox="0 0 16 16"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/></svg>
                                                  Follow Question 
@@ -179,7 +179,7 @@ export default function Chat() {
                                                 <Row>
                                                     <Col sm={1} md={1} xs={2}>
                                                         <div className={styles.ans_box}>
-                                                            <img src="/aa.png" />
+                                                            <Image src="/aa.png" width={100} height={100} alt='img4' />
                                                         </div>
                                                     </Col>
                                                     <Col sm={11} md={11} xs={10}>
@@ -204,7 +204,7 @@ export default function Chat() {
                                             <div className={styles.cancle}>
                                                 <p><span>Prabhat </span> asked about  Royal Enfield Classic 350 (2012-2021)</p>
                                             </div>
-                                            <h3>Q. What's the Minimum height of a person required to drive a classic 350 ?</h3>
+                                            <h3>Q. Whats the Minimum height of a person required to drive a classic 350 ?</h3>
                                             <p className={styles.follow}>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" className="bi bi-bell-fill" viewBox="0 0 16 16"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/></svg>
                                                  Follow Question 
@@ -215,7 +215,7 @@ export default function Chat() {
                                                 <Row>
                                                     <Col sm={1} md={1} xs={2}>
                                                         <div className={styles.ans_box}>
-                                                            <img src="/aa.png" />
+                                                            <Image src="/aa.png" width={100} height={100} alt='img5' />
                                                         </div>
                                                     </Col>
                                                     <Col sm={11} md={11} xs={10}>

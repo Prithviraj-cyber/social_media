@@ -199,7 +199,7 @@ export default function Answers2() {
                                     <Row>
                                         <Col sm={1} md={1} xs={2}>
                                             <div className={styles.ans_box}>
-                                                <img src="/aa.png" />
+                                                <Image src="/aa.png" width={100} height={100} alt='img20'/> 
                                             </div>
                                         </Col>
                                         <Col sm={11} md={11} xs={10}>
@@ -242,7 +242,7 @@ export default function Answers2() {
                                         <Row>
                                             <Col sm={1} md={1} xs={2}>
                                                 <div className={styles.ans_box}>
-                                                    <img src="/aa.png" />
+                                                    <Image src="/aa.png" width={100} height={100} alt='img21'/>
                                                 </div>
                                             </Col>
                                             <Col sm={11} md={11} xs={10}>
@@ -279,7 +279,7 @@ export default function Answers2() {
                                 
                                 <h5 className={styles2.view}>View More Answers <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" className="bi bi-chevron-down" viewBox="0 0 16 16"> <path fillRule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg></h5>
                                 <div className={styles2.add_ans}>
-                                    <h3><img src="/chat2.png" />Add your Answer</h3>
+                                    <h3><Image className={styles2.add_ans_img} src="/chat2.png" width={20} height={30} alt='img23' /> <span> Add your Answer</span></h3>
                                     <Form>
                                         <Form.Group className={styles2.add_ans_form} controlId="exampleForm.ControlTextarea1">
                                             <Form.Control className={styles2.add_ans_form2} as="textarea" rows={3} value={answers} onChange={(e) => setAnswers(e.target.value)} placeholder="Have something to say ..." />
@@ -352,7 +352,7 @@ export default function Answers2() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/breeza.png" />
+                                                    <Image src="/breeza.png" width={100} height={70} alt='img24' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -367,7 +367,7 @@ export default function Answers2() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/swift.png" />
+                                                    <Image src="/swift.png" width={100} height={70} alt='img25' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -382,7 +382,7 @@ export default function Answers2() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/alto.png" />
+                                                    <Image src="/alto.png"  width={100} height={70} alt='img26' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -397,7 +397,7 @@ export default function Answers2() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/baleno.png" />
+                                                    <Image src="/baleno.png"  width={100} height={70} alt='img27' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -412,7 +412,7 @@ export default function Answers2() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/eritga.png" />
+                                                    <Image src="/eritga.png"  width={100} height={70} alt='img28' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -427,7 +427,7 @@ export default function Answers2() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/alto.png" />
+                                                    <Image src="/alto.png"  width={100} height={70} alt='img29' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -442,7 +442,7 @@ export default function Answers2() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/baleno.png" />
+                                                    <Image src="/baleno.png"  width={100} height={70} alt='img30' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -457,7 +457,7 @@ export default function Answers2() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/alto.png" />
+                                                    <Image src="/alto.png"  width={100} height={70} alt='img31'/>
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>

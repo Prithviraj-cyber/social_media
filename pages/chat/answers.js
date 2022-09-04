@@ -47,7 +47,7 @@ export default function Answers() {
                                     <Row>
                                         <Col sm={1} md={1} xs={2}>
                                             <div className={styles.ans_box}>
-                                                <img src="/aa.png" />
+                                                <Image src="/aa.png" width={100} height={100} alt='img7'/>
                                             </div>
                                         </Col>
                                         <Col sm={11} md={11} xs={10}>
@@ -70,7 +70,7 @@ export default function Answers() {
                                     <Row>
                                         <Col sm={1} md={1} xs={2}>
                                             <div className={styles.ans_box}>
-                                                <img src="/aa.png" />
+                                                <Image src="/aa.png" width={100} height={100} alt='img8'/>
                                             </div>
                                         </Col>
                                         <Col sm={11} md={11} xs={10}>
@@ -89,7 +89,7 @@ export default function Answers() {
                                     <Row>
                                         <Col sm={1} md={1} xs={2}>
                                             <div className={styles.ans_box}>
-                                                <img src="/aa.png" />
+                                                <Image src="/aa.png" width={100} height={100} alt='img9'/>
                                             </div>
                                         </Col>
                                         <Col sm={11} md={11} xs={10}>
@@ -118,7 +118,7 @@ export default function Answers() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/bullet.png" />
+                                                    <Image src="/bullet.png" width={100} height={70} alt='img10'/>
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -133,7 +133,7 @@ export default function Answers() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/intern.png" />
+                                                    <Image src="/intern.png" width={100} height={70} alt='img11' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -148,7 +148,7 @@ export default function Answers() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/cont.png" />
+                                                    <Image src="/cont.png" width={100} height={70} alt='img12' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -163,7 +163,7 @@ export default function Answers() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/classic.png" />
+                                                    <Image src="/classic.png" width={100} height={70} alt='img13' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -178,7 +178,7 @@ export default function Answers() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/meteor.png" />
+                                                    <Image src="/meteor.png" width={100} height={70} alt='img14' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -193,7 +193,7 @@ export default function Answers() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/bullet.png" />
+                                                    <Image src="/bullet.png" width={100} height={70} alt='img15' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -208,7 +208,7 @@ export default function Answers() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/intern.png" />
+                                                    <Image src="/intern.png" width={100} height={70} alt='img16' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
@@ -223,7 +223,7 @@ export default function Answers() {
                                         <Row>
                                             <Col md={5} sm={5} xs={5}>
                                                 <div className={styles2.tre_box}>
-                                                    <img src="/cont.png" />
+                                                    <Image src="/cont.png" width={100} height={70} alt='img6' />
                                                 </div>
                                             </Col>
                                             <Col md={7} sm={7} xs={7}>
